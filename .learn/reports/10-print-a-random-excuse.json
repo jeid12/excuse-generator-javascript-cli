@@ -1,0 +1,73 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 14,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1mThe value of excuse variable should match one of all possible combinations\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\n    Expected: \u001b[32mtrue\u001b[39m\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 116 |\u001b[39m     \u001b[36mlet\u001b[39m printedSentence \u001b[33m=\u001b[39m excuse\u001b[33m.\u001b[39mtrim()\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 117 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 118 |\u001b[39m     expect(combinations\u001b[33m.\u001b[39mhas(printedSentence))\u001b[33m.\u001b[39mtoBe(\u001b[36mtrue\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m     |\u001b[39m                                               \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 119 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 120 |\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 121 |\u001b[39m test(\u001b[32m\"You should print the 'excuse' variable\"\u001b[39m\u001b[33m,\u001b[39m ()\u001b[33m=>\u001b[39m{\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36m.learn/exercises/10-print-a-random-excuse/test.js\u001b[39m\u001b[0m\u001b[2m:118:47)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "The who array should exist",
+      "status": "passed"
+    },
+    {
+      "title": "The who array should have the indicated elements",
+      "status": "passed"
+    },
+    {
+      "title": "The what array should exist",
+      "status": "passed"
+    },
+    {
+      "title": "The what array should have the indicated elements",
+      "status": "passed"
+    },
+    {
+      "title": "The when array should exist",
+      "status": "passed"
+    },
+    {
+      "title": "The when array should have the indicated elements",
+      "status": "passed"
+    },
+    {
+      "title": "You should generate a random index for the who array",
+      "status": "passed"
+    },
+    {
+      "title": "You should generate a random index for the what array",
+      "status": "passed"
+    },
+    {
+      "title": "You should generate a random index for the when array",
+      "status": "passed"
+    },
+    {
+      "title": "A random value from the who array should be generated",
+      "status": "passed"
+    },
+    {
+      "title": "A random value from the what array should be generated",
+      "status": "passed"
+    },
+    {
+      "title": "A random value from the when array should be generated",
+      "status": "passed"
+    },
+    {
+      "title": "You should create an 'excuse' variable",
+      "status": "passed"
+    },
+    {
+      "title": "The value of excuse variable should match one of all possible combinations",
+      "status": "failed"
+    },
+    {
+      "title": "You should print the 'excuse' variable",
+      "status": "passed"
+    }
+  ]
+}
